@@ -1,0 +1,1835 @@
+*{
+    margin: 0px;
+}
+body{
+    width: 100%;
+}
+.container{
+     background-color: black;
+    height: 100vh;
+    /* position: relative; */
+    
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+    align-items: center;
+}
+.container nav .div1 a{
+    text-decoration: none;
+    font-size: 46px;
+    font-weight: 400;
+    color: rgb(98, 184, 156);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container nav .div1 p{
+    color: azure;
+    margin-left: 15px;
+    font-size: 1px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container nav .div2 a{
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    margin: 20px;
+    font-size: 15px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container nav .div2 i{
+    color: rgb(15, 178, 39);
+    margin-left: 40px;
+    position: absolute;
+    top: 50px;
+    
+}
+/* .sec1{
+    background-color: aqua;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 40px;
+    width: 100%;
+    margin: auto;
+   
+}
+.sec1 img{
+    width: 700px;
+    height: 100%;
+    
+    
+} */
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+    /* height: 750px; */
+    /* background-color: rgb(14, 10, 10); */
+    background-image: linear-gradient(to right, black, black, rgb(137, 245, 195));
+    position: relative;
+}
+.sec1 img{
+    width: 500px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    /* top: 72px; */
+}
+.sec1 .div1{
+    margin-left: 160px;
+    position: absolute;
+    left: 0px;
+    top: 230px;
+    /* top: 200px; */
+
+}
+.sec1 .div1 .p1{
+    color: rgb(0, 141, 94);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec1 .div1 .h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.sec1 .div1 strong{
+    color: rgb(0, 145, 97);
+}
+.sec1 .div1 .hr1{
+    width: 75px;
+    margin: 7px 0px;
+    color: rgb(6, 169, 114);
+}
+.sec1 .div1 .p2{
+    color: gray;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec1 .div2 i{
+    position: absolute;
+    top: 215px;
+    background-color: aquamarine;
+    padding: 16px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.4);
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 6px 5px ;
+}
+.sec1 .div3{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.sec1 .div3 .hr2{
+    width: 75px;
+    margin: 8px 0px 10px 0px;
+    color: gray;
+}
+.sec1 .div3 .h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec1 .div3 .p3{
+    color: rgb(6, 123, 84);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.sec2 .div1{
+    margin-left: 170px;
+    margin-top: 10px;
+    position: absolute;
+    top: 70px;
+}
+.sec2 .div1 .p1{
+    color: rgb(11, 169, 116);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div1 .h1{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div1 strong{
+    color: rgb(64, 222, 169);
+}
+.sec2 .div1 hr{
+    width: 75px;
+    margin: 10px 0px;
+    color: rgb(6, 169, 114);
+}
+.sec2 .div1 .p2{
+    line-height: 25px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div1 .p3{
+    margin: 10px 0px 20px 0px;
+    line-height: 25px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div1 button{
+    color: rgb(255, 255, 255);
+    background-color: aquamarine;
+    padding: 10px;
+}
+.sec2 .div1 button:hover{
+    color: aquamarine;
+    background-color: rgb(255, 255, 255);
+}
+.sec2 .div2{
+    position: absolute;
+    right: 300px;
+    /* top: 50px; */
+    top: 0px;
+    margin-top: 10px;
+    justify-content: center;
+    /* display: flex; */
+}
+.sec2 .div2 .div1{
+    margin-left: 50px;
+    display: flex;
+}
+.sec2 .div2 .div1 .child1{
+    /* background-color: rgb(173, 44, 44);
+    position: absolute;
+    top: 0px;
+    width: 220px;
+    height: 170px;
+    right: 290px; */
+    background-color: rgb(140, 125, 125, 0.1);
+    position: absolute;
+    width: 220px;
+    height: 190px;
+    top: 0px;
+    right: 270px;
+    margin-top: 0px;
+   
+}
+.sec2 .div2 .div1 .child1 img{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 85px;
+    top: 30px;
+}
+.sec2 .div2 .div1 .child1 h1{
+    position: absolute;
+    right: 45px;
+    top: 85px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div2 .div1 .child1 p{
+    position: absolute;
+    left:10px;
+    top: 110px;
+    font-size: 14px;    
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div2 .div1 .child2{
+    background-image: linear-gradient(to bottom,black,rgb(48, 73, 48));
+    position: absolute;
+    width: 220px;
+    height: 190px;
+    top: 200px;
+    right: 270px;
+    margin-top: 0px;
+}
+.sec2 .div2 .div1 .child2 img{
+    position: absolute;
+    right: 85px;
+    top: 30px;
+}
+.sec2 .div2 .div1 .child2 h1{
+    position: absolute;
+    right: 42px;
+    top: 90px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div2 .div1 .child2 p{
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    font-size: 15px;    
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec2 .div2 .div2 .child1{
+    background-image: linear-gradient(to bottom,black,rgb(48, 73, 48));
+    position: absolute;
+    width: 220px;
+    height: 190px;
+    top: 40px;
+    right: -320px;
+    margin-top: 0px;
+}
+.sec2 .div2 .div2 .child1 img{
+    position: absolute;
+    right: 90px;
+    top: 30px;
+}
+.sec2 .div2 .div2 .child1 h1{
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div2 .div2 .child1 p{
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    font-size: 15px;    
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec2 .div2 .div2 .child2{
+    background-color: rgb(140, 125, 125, 0.1);
+    position: absolute;
+    width: 220px;
+    height: 190px;
+    top: 240px;
+    right: -320px;
+    margin-top: 0px;
+}
+.sec2 .div2 .div2 .child2 img{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+.sec2 .div2 .div2 .child2 h1{
+    position: absolute;
+    right: 45px;
+    top: 80px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2 .div2 .div2 .child2 p{
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    font-size: 15px;    
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3{
+    background-color: rgb(18, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 740px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.sec3 .img{
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+.sec3 .only_div{
+    position: absolute;
+    right: 20px;
+}
+.sec3 .only_div .div1{
+   
+    margin-right: 110px;
+    margin-top:-150px;
+    
+    
+}
+.sec3 .only_div .div1 .p1{
+    color: rgb(27, 178, 27);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 .only_div .div1 .h1{
+    font-size: 60px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 .only_div .div1 strong{
+    color: rgb(10, 237, 214);
+}
+.sec3 .only_div .div1 hr{
+    width: 75px;
+    margin: 10px 0px;
+    color: rgb(18, 255, 223);
+}
+.sec3 .only_div .div1 .p2{
+    line-height: 25px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 .only_div .div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* margin-right: 0px; */
+}
+.sec3 .only_div .div2 .div1{
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 10px;
+}
+.sec3 .only_div .div2 .div1 img{
+    width: 60px;
+    margin-right: 10px;
+    height: 55px;
+}
+.sec3 .only_div .div2 .div1 .div h1{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 .only_div .div2 .div1 .div p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 .only_div .div2 .div2{
+    display: flex;
+    position: absolute;
+    top: 160px;
+    left: 430px;
+}
+.sec3 .only_div .div2 .div2 img{
+    width: 50px;
+    margin-right: 10px;
+    position: absolute;
+    right: 255px;
+    top: 60px;
+}
+.sec3 .only_div .div2 .div2 .div h1{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 .only_div .div2 .div2 .div p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 230px;
+    width: 100%;
+    background-position: right center;
+    background-size: cover;
+    background-image: linear-gradient(-80deg,rgb(12, 12, 12, 0.8) 10%,rgb(31, 64, 55)),url("./images/1.jpg");
+    margin: auto;
+    position: relative;
+    overflow: hidden;   
+}
+
+
+/* .sec4 .ppp{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: -225px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+} */
+/* .sec4 .ppp{
+    z-index: -1;
+    width: 00px;
+} */
+.sec4 nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 150px;
+}
+/* .sec4 nav .div1{
+    margin-left: -200px;
+} */
+.sec4 nav strong{
+    color: aquamarine;
+    font-size: 30px;
+}
+.sec4 nav .div1 img{
+    width: 50px;
+}
+.sec4 .container .div1 h1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4 nav .div1 p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: -20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4 nav .div2 img{
+    width: 50px;
+}
+.sec4 nav .div2 h1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec4 nav .div2 p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: -25px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4 nav .div3 img{
+    width: 50px;
+}
+.sec4 nav .div3 h1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4 nav .div3 p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: -20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4 nav .div4 img{
+    width: 50px;
+}
+.sec4 nav .div4 h1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec4 nav .div4 p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: -15px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .sec4 .img{
+    width: 20px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+} */
+.sec5{
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec5 .only_div{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 65%;
+    display: flex;
+    position: relative;
+    margin-left: 118px;
+}
+.sec5 .only_div .div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.sec5 .only_div .div1 img{
+    width: 290.5px;
+    height: 250px;
+    position: absolute;
+    right: 117px;
+    top: 40px;
+}
+/* .sec5 .only_div .div1 .div{
+    
+} */
+
+.sec5 .only_div .div1 .div .p1{
+    color: aquamarine;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec5 .only_div .div1 .div .h1{
+    color: aliceblue;
+    font-size: 48px;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec5 .only_div .div1 .div strong{
+    color: aquamarine;
+}
+.sec5 .only_div .div1 .div hr{
+    width: 75px;
+    color: aquamarine;
+    margin-bottom: 15px;
+}
+.sec5 .only_div .div1 .div .p2{
+    margin-top: 10px;
+    line-height: 25px;
+    color: gray;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec5 .only_div .div1 .div .child1{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.sec5 .only_div .div1 .div .child1 i{
+    color: aquamarine;
+    margin-right: 10px;
+}
+.sec5 .only_div .div1 .div .child1 p{
+    color: aliceblue;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec5 .only_div .div1 .div .child2{
+    display: flex;
+}
+.sec5 .only_div .div1 .div .child2 i{
+    color: aquamarine;
+    margin-right: 10px;
+}
+.sec5 .only_div .div1 .div .child2 p{
+    color: aliceblue;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec5 .only_div .divv{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    
+}
+.sec5 .only_div .divv .img1{
+    width: 290px;
+    height: 250px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.sec5 .only_div .divv .img2{
+    width: 290px;
+    height: 250px;
+    position: absolute;
+    left: 290px;
+    bottom: 0px;
+}
+.sec5 .only_div .divv .img3{
+    width: 290px;
+    height: 250px;
+    position: absolute;
+    left: 580px;
+    bottom: 0px;
+}
+.sec6{
+    /* background-image: linear-gradient(to left, black, black, rgb(113, 201, 113), rgb(113, 201, 113)); */
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 47vh; */
+    height: 180px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;   
+    background-position: right center;
+    background-size: cover;
+    background-image: linear-gradient(-80deg,rgb(31, 64, 55) 10%,rgb(12, 12, 12, 0.8)),url("./images/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg");
+}
+.sec6 .img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: -260px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+.sec6 div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+.sec6 div img{
+    width: 220px;
+    filter: grayscale(100%);
+}
+.sec7{
+    background-color: rgb(0, 0, 0);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec7 .only_div{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 85%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.sec7 .only_div .div1{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+}
+.sec7 .only_div .div1 p{
+    color: aquamarine;
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec7 .only_div .div1 h1{
+    color: aliceblue;
+    font-size: 45px;
+    margin-bottom: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec7 .only_div .div1 strong{
+    color: aquamarine;
+}
+.sec7 .only_div .div1 img{
+    width: 420px;
+    height: 250px;
+}
+.sec7 .only_div .div1 i{
+    position: absolute;
+    top: 400px;
+    border-radius: 50%;
+    padding: 22px;
+    left: 185px;
+    border: 3.5px solid rgb(211, 202, 202);
+}
+.sec7 .only_div .div2{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+}
+.sec7 .only_div .div2 .p1{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    line-height: 25px;
+    color: gray;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec7 .only_div .div2 .icons .icon1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.sec7 .only_div .div2 .icons .icon1 i{
+   margin-right: 8px;
+   color: aquamarine;
+}
+.sec7 .only_div .div2 .icons .icon1 .p{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec7 .only_div .div2 .icons .icon2{
+    display: flex;
+}
+.sec7 .only_div .div2 .icons .icon2 i{
+   margin-right: 8px;
+   color: aquamarine;
+}
+.sec7 .only_div .div2 .icons .icon2 .p2{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec7 .only_div .div2 .icons{
+    margin-bottom: 73px;
+}
+.sec7 .only_div .div2 img{
+    width: 400px;
+    height: 240px;
+    margin-top: 80px;
+}
+.sec7 .only_div .div2 .fa-play
+{
+    position: absolute;
+    border-radius: 50%;
+    padding: 22px;
+    top: 465px;
+    left: 170px;
+    border: 3.5px solid rgb(211, 202, 202);
+} 
+.sec8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden; 
+}
+ .sec8 img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+} 
+     
+
+.sec8 .only_div .p1{
+    color: aquamarine;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45px;
+    left: 718px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec8 .only_div .h1{
+    position: absolute;
+    left: 600px;
+    top: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec8 .only_div strong{
+    color: aquamarine;
+}
+.sec8 .only_div hr{
+    width: 75px;
+    color: aquamarine;
+    position: absolute;
+    left: 735px;
+    top: 130px;
+}
+.sec8 .only_div .p2{
+    position: absolute;
+    top: 145px;
+    left: 450px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec8 .only_div .p3{
+    position: absolute;
+    top: 170px;
+    left: 570px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec9 .only_div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sec9 img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: --1;
+    /* top: 4500px; */
+}
+.sec9 .only_div .div .div1 img{
+    margin-top: -20px;
+    width: 280px;
+    height: 250px;
+    
+}
+.sec9 .only_div .div .div1{
+    display: flex;
+    background-color: rgb(128, 128, 128, 0.1);
+    width: 520px;
+    height: 300px;
+    margin-bottom: 45px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.sec9 .only_div .div .div1 .text{
+    margin-left: 290px;
+}
+.sec9 .only_div .div .div1 h1{
+    font-size: 35px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .div .div1 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    margin-bottom: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .div .div1 .p2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .div .div1 .icons{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec9 .only_div .div .div2 img{
+    margin-top: -20px;
+    width: 280px;
+    height: 250px;
+}
+.sec9 .only_div .div .div2{
+    display: flex;
+    background-color: rgb(128, 128, 128, 0.1);
+    width: 520px;
+    height: 300px;
+    margin-bottom: 45px;
+    margin-left: 70px;
+}
+.sec9 .only_div .div .div2 .text{
+    margin-left: 290px;
+}
+.sec9 .only_div .div .div2 h1{
+    font-size: 35px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .div .div2 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    margin-bottom: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .div .div2 .p2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .div .div2 .icons{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec9 .only_div .divv .div1 img{
+    margin-top: -20px;
+    width: 280px;
+    height: 250px;
+}
+.sec9 .only_div .divv .div1{
+    display: flex;
+    background-color: rgb(128, 128, 128, 0.1);
+    width: 520px;
+    height: 300px;
+    margin-bottom: 45px;
+    margin-right: -50px;
+    margin-top: 20px;
+}
+.sec9 .only_div .divv .div1 .text{
+    margin-left: 290px;
+}
+.sec9 .only_div .divv .div1 h1{
+    font-size: 35px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div1 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    margin-bottom: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div1 .p2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div1 .icons{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec9 .only_div .divv .div2 img{
+    margin-top: -20px;
+    width: 280px;
+    height: 250px;
+}
+.sec9 .only_div .divv .div2{
+    display: flex;
+    background-color: rgb(128, 128, 128, 0.1);
+    width: 520px;
+    height: 300px;
+    margin-bottom: 45px;
+    margin-right: 70px;
+}
+.sec9 .only_div .divv .div2 .text{
+    margin-left: 290px;
+}
+.sec9 .only_div .divv .div2 h1{
+    font-size: 35px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div2 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    margin-bottom: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div2 .p2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div2 .icons{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec9 .only_div .divv .div2 img{
+    margin-top: -20px;
+    width: 280px;
+    height: 250px;
+}
+.sec9 .only_div .divv .div2{
+    display: flex;
+    background-color: rgb(128, 128, 128, 0.1);
+    width: 520px;
+    height: 300px;
+    margin-bottom: 45px;
+    margin-right: 70px;
+}
+.sec9 .only_div .divv .div2 h1{
+    font-size: 33px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div2 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    margin-bottom: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div2 .p2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec9 .only_div .divv .div12 .icons{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: aquamarine;
+}
+.sec10{
+    background-color: rgb(0, 0, 0);
+    height: 1270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.sec10 .only_div{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 90%;
+    /* display: flex;
+    justify-content: center;  */
+    position: relative;
+    margin-left: 75px;
+}
+.sec10 .only_div .div1{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 220px;
+}
+.sec10 .only_div .div1 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 395px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec10 .only_div .div1 h1{
+    font-size: 42px;
+    color: aliceblue;
+    margin-left: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec10 .only_div .div1 strong{
+    color: aquamarine;
+}
+.sec10 .only_div .div1 hr{
+    width: 75px;
+    color: aquamarine;
+    margin-bottom: 15px;
+    margin-left: 433px;
+}
+.sec10 .only_div .div1 .p2{
+    color: gray;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec10 .only_div .div1 .p3{
+    color: gray;
+    margin-bottom: 35px;
+    margin-left: 230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec10 .only_div .div2 .div2{
+   display: flex;
+   justify-content: center;
+   /* margin-right: 10px; */
+}
+.sec10 .only_div .div2 .div3{
+    display: flex;
+   justify-content: center;
+  
+}
+.sec11{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.sec11 .only_div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec11 .img{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    z-index: -1;
+}
+.sec11 .only_div .div1{
+    margin-top: 80px;
+}
+.sec11 .only_div .div1 strong{
+    color: aquamarine;
+}
+.sec11 .only_div .div1 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec11 .only_div .div1 h1{
+    font-size: 55px;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec11 .only_div .div1 hr{
+    width: 95px;
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+.sec11 .only_div .div1 .p2{
+    margin-bottom: 60px;
+    line-height: 25px;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec11 .only_div .div1 button{
+    width: 200px;
+    padding: 15px 0px;
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec11 .only_div .div1 button:hover{
+    color: aquamarine;
+    background-color: rgb(255, 255, 255);
+}
+.sec11 .only_div .div2{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 800px;
+    height: 200px;
+    padding: 25px;
+    margin-left: 25px;
+}
+.sec11 .only_div .div2 .p1{
+    margin-bottom: 60px;
+    line-height: 30px;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec11 .only_div .div2 .div .divv{
+    display: flex;
+}
+
+.sec11 .only_div .div2 .div .divv .divvvv{
+    margin-left: 85px;
+    display: flex;
+}
+.sec11 .only_div .div2 .div .divv .divvvv h1{
+    color: aliceblue;
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec11 .only_div .div2 .div .divv p{
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12{
+    background-color: black;
+    height: 780px;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.sec12 .only_div{
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+    height: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 115px;
+    margin-top: 60px;
+}
+.sec12 .only_div .div1{
+    /* margin-left: 120px; */
+    margin-top: 50px;
+}
+.sec12 .only_div .div1 .p1{
+    font-size: 15px;
+    color: aquamarine;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 570px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div1 h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 440px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div1 strong{
+    color: aquamarine;
+}
+.sec12 .only_div .div1 hr{
+    width: 75px;
+    color: aquamarine;
+    margin-bottom: 15px;
+    margin-left: 593px;
+}
+.sec12 .only_div .div1 .p2{
+    color: gray;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div1 .p3{
+    color: gray;
+    margin-bottom: 35px;
+    margin-left: 360px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.sec12 .only_div .div2 .div1{
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec12 .only_div .div2 .div1 h3{
+    color: aquamarine;
+    font-size: 25px;
+    margin-top: 15px;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div1 .p{
+    margin-bottom: 60px;
+    line-height: 25px;
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.sec12 .only_div .div2 .div1 .icons{
+    display: flex;
+}
+.sec12 .only_div .div2 .div1 .icons .icon1{
+    display: flex;  
+    margin-right: 45px;
+}
+.sec12 .only_div .div2 .div1 .icons .icon1 .fa-calendar-days{
+    color: aquamarine;
+}
+.sec12 .only_div .div2 .div1 .icons .icon1 p{
+    margin-left: 12px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div1 .icons .icon2{
+    display: flex;  
+}
+.sec12 .only_div .div2 .div1 .icons .icon2 p{
+    margin-left: 12px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div1 .icons .icon2 .fa-square{
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec12 .only_div .div2 .div25 h3{
+    color: aquamarine;
+    font-size: 25px;
+    margin-top: 15px;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div25 .p{
+    margin-bottom: 60px;
+    line-height: 25px;
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div25 .icons{
+    display: flex;
+}
+.sec12 .only_div .div2 .div25 .icons .icon1{
+    display: flex;  
+    margin-right: 45px;
+}
+.sec12 .only_div .div2 .div25 .icons .icon1 .fa-calendar-days{
+    color: aquamarine;
+}
+.sec12 .only_div .div2 .div25 .icons .icon1 p{
+    margin-left: 12px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div25 .icons .icon2{
+    display: flex;  
+}
+.sec12 .only_div .div2 .div25 .icons .icon2 p{
+    margin-left: 12px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div25 .icons .icon2 .fa-square{
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec12 .only_div .div2 .div3 h3{
+    color: aquamarine;
+    font-size: 25px;
+    margin-top: 15px;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div3 .p{
+    margin-bottom: 60px;
+    line-height: 25px;
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div3 .icons{
+    display: flex;
+}
+.sec12 .only_div .div2 .div3 .icons .icon1{
+    display: flex;  
+    margin-right: 45px;
+}
+.sec12 .only_div .div2 .div3 .icons .icon1 .fa-calendar-days{
+    color: aquamarine;
+}
+.sec12 .only_div .div2 .div3 .icons .icon1 p{
+    margin-left: 12px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div1 .icons .icon2{
+    display: flex;
+    
+}
+.sec12 .only_div .div2 .div3 .icons .icon2 p{
+    margin-left: 32px;
+    margin-top: -19.5px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec12 .only_div .div2 .div3 .icons .icon2 .fa-square{
+    color: aquamarine;
+}
+.sec13{
+    background-color: rgb(0, 0, 0, 0.97);
+    height: 700px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden;
+     background-position: center;
+    background-size: cover;
+    background-image: url("./images/bg-2.png") 
+}
+fieldset{
+    height: 470px;
+}
+.sec13 .div1{
+    margin-right: 10px;
+    margin-top: -50px;
+}
+fieldset{
+    border: 2px solid aquamarine;
+    margin-top: 50px;
+}
+form{
+    padding-top: 20px;
+}
+.sec13 .div1 input{
+    margin-bottom: 20px;
+    border: 1px solid aquamarine;
+    width: 500px;
+    height: 28px;
+    background: transparent;
+}
+.sec13 .div1 label{
+    color: aquamarine;
+}
+.sec13 .div1 button{
+    width: 440px;
+    height: 40px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: aquamarine;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div1 button:hover{
+    color: aquamarine;
+    background-color: rgb(255, 255, 255);
+}
+.sec13 .div2{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.sec13 .div2 .p1{
+    font-size: 18px;
+    color: aquamarine;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .h1{
+    font-size: 55px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 strong{
+    color: aquamarine;
+}
+.sec13 .div2 hr{
+    width: 80px;
+    color: aquamarine;
+    margin-bottom: 15px;
+    
+}
+.sec13 .div2 .p2{
+    margin-bottom: 60px;
+    line-height: 30px;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .icons .text1{
+    margin-left: 13px;
+}
+.sec13 .div2 .icons .icon1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.sec13 .div2 .icons .icon1 i{
+    color: aquamarine;
+    font-size: 25px;
+}
+.sec13 .div2 .icons .icon1 h1{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .icons .icon1 p{
+    color: aquamarine;
+    margin-top: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .icons .text2{
+    margin-left: 13px;
+}
+.sec13 .div2 .icons .icon2{
+    display: flex;
+    margin-bottom: 30px;
+}
+.sec13 .div2 .icons .icon2 i{
+    color: aquamarine;
+    font-size: 25px;
+}
+.sec13 .div2 .icons .icon2 h1{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .icons .icon2 p{
+    color: aquamarine;
+    margin-top: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .icons .text3{
+    margin-left: 13px;
+}
+.sec13 .div2 .icons .icon3{
+    display: flex;
+    margin-bottom: 30px;
+}
+.sec13 .div2 .icons .icon3 i{
+    color: aquamarine;
+    font-size: 25px;
+}
+.sec13 .div2 .icons .icon3 h1{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec13 .div2 .icons .icon3 p{
+    color: aquamarine;
+    margin-top: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+.sec14{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    background: radial-gradient(circle, rgba(9,121,86,1) 0%, rgba(7,96,68,1) 0%, rgba(0,0,0,1) 29%)
+}
+.sec14 .only_div{
+    margin-top: 180px;
+}
+.sec14 .only_div h1{
+    color: aquamarine;
+    margin-left: 165px;
+    margin-top: -140px;
+    font-size: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec14 .only_div .div1 p{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 180px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec14 .only_div nav{
+    margin-top: 45px;
+    margin-left: 45px;
+    /* display: flex; */
+}
+.sec14 .only_div nav a{
+    text-decoration: none;
+    color: aquamarine;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec14 .only_div .div2 .p1{
+    margin-left: 20px;
+    line-height: 30px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec14 .only_div .div2 .p2{
+    margin-left: 125px;
+    line-height: 30px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec14 .only_div .icons{
+    display: flex;
+    margin-left: 145px;
+    margin-top: 30px;
+    
+}
+.sec14 .only_div .icons i{
+    padding: 20px;
+    color: aquamarine;
+}
+
+
+
+
+
